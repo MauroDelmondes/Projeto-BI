@@ -8,7 +8,7 @@ header {
     text-transform: uppercase;
     padding: 30px 10%;
     z-index: 1;
-    position: absolute;
+    position: fixed;
     width: 100vw;
     
 }
@@ -59,6 +59,67 @@ header button:hover {
 
 main img {
     width: 100vw;
+    max-height: 100vh;
+    object-fit: cover;
+}
+
+.main__titles {
+    position: absolute;
+    top: 70vh;
+    left: 6vw;
+    background-color: #24252A;
+    color: #EDf0F1;
+    font-family: 'Poppins', sans-serif;
+    padding: 1rem 3rem;
+    border-radius: 0.5rem;
+}
+
+.main__titles h1 {
+    font-weight: 900;
+    font-size: 3rem;
+}
+
+.main__titles h3 {
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+h2 {
+    font-weight: 800;
+    font-size: 2rem;
+    color: #1c525f;
+    margin: 10vh 0;
+}
+
+.container__bi {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section__bi {
+    display: flex;
+    justify-content: space-between;
+    width: 90vw;
+}
+
+.div__bi {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly
+}
+
+.bi__text {
+    width: 45vw;
+    font-weight: 500;
+    font-size: 1.1rem;
+    color: #24252A;
+}
+
+.section__bi img {
+    width: 40vw;
+    background-color: rgba(6, 95, 117, 0.8);
+    padding: 1rem;
 }
 
 /* font-family: 'Montserrat', sans-serif;
