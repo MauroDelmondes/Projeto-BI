@@ -151,10 +151,17 @@ h2 {
     padding: 2vh 0;
 }
 
+.container__coplan, .container__projeto, .container__equipe {
+    height: 100vh;
+}
+
 .section__coplan img {
     width: 40vw;
 }
 
+.section__coplan img {
+    padding: 1rem;
+}
 .container__projeto h2{
     color: #EDf0F1;
 }
@@ -171,6 +178,38 @@ h2 {
     background-color: coral;
     padding: 30px;
 }
+
+.section__equipe {
+    justify-content: center;
+}
+
+.div__equipe {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 50px;
+}
+
+.card img{
+    width: 15vw;
+}
+
+.card_content {
+    background-color: #000041;
+    font-weight: 600;
+    color: #EDf0F1;
+}
+
+footer {
+    font-weight: 900;
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #000041;
+    text-align: center;
+    color: #EDf0F1;
+    padding: 10vh 0;
+    text-transform: uppercase;
+}
+
 
 /* font-family: 'Montserrat', sans-serif;
 
