@@ -151,7 +151,9 @@ h2 {
     padding: 2vh 0;
 }
 
-
+.section__coplan img {
+    width: 40vw;
+}
 /* font-family: 'Montserrat', sans-serif;
 
 font-family: 'Poppins', sans-serif;
