@@ -89,38 +89,68 @@ h2 {
     font-size: 2rem;
     color: #1c525f;
     margin: 10vh 0;
+    text-transform: uppercase;
 }
 
-.container__bi {
+.div__container {
     display: flex;
     flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
     align-items: center;
+    padding: 10vh 0;
 }
 
-.section__bi {
+.section__content, .section__business_intelligence {
     display: flex;
     justify-content: space-between;
     width: 90vw;
 }
 
-.div__bi {
+.div__content, .div__business_intelligence {
     display: flex;
     flex-direction: column;
     justify-content:space-evenly
 }
 
-.bi__text {
+.p__content, .business_intelligence__text {
     width: 45vw;
     font-weight: 500;
     font-size: 1.1rem;
     color: #24252A;
 }
 
-.section__bi img {
+.section__business_intelligence img {
     width: 40vw;
     background-color: rgba(6, 95, 117, 0.8);
     padding: 1rem;
 }
+
+.container__projeto_integrador {
+    background-color: #000041;
+}
+
+.container__projeto_integrador h2{
+    color: #EDf0F1;
+}
+
+.section__projeto_integrador {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section__projeto_integrador img {
+    width: 50vw;
+    height: 25vh;
+    object-fit: cover;
+}
+
+.projeto_integrador__text {
+    font-weight:600;
+    color: #EDf0F1;
+    padding: 2vh 0;
+}
+
 
 /* font-family: 'Montserrat', sans-serif;
 
