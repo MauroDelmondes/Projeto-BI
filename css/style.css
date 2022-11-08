@@ -125,7 +125,7 @@ h2 {
     padding: 1rem;
 }
 
-.container__projeto_integrador {
+.container__projeto_integrador, .container__projeto {
     background-color: #000041;
 }
 
@@ -145,7 +145,7 @@ h2 {
     object-fit: cover;
 }
 
-.projeto_integrador__text {
+.projeto_integrador__text, .projeto__text {
     font-weight:600;
     color: #EDf0F1;
     padding: 2vh 0;
@@ -154,6 +154,24 @@ h2 {
 .section__coplan img {
     width: 40vw;
 }
+
+.container__projeto h2{
+    color: #EDf0F1;
+}
+
+.section__projeto{
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.a__projeto {
+    font-weight: 900;
+    align-items: center;
+    text-transform: uppercase;
+    background-color: coral;
+    padding: 30px;
+}
+
 /* font-family: 'Montserrat', sans-serif;
 
 font-family: 'Poppins', sans-serif;
